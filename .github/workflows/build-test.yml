@@ -31,7 +31,7 @@ jobs:
           touch araba.txt
           echo "kaporta" >> araba.txt
           echo "motor" >> araba.txt
-          echo "tekerlekler" >> araba.txt
+          echo "tekerlekler" > araba.txt
 
       # Runs a set of commands using the runners shell
       - name: Arabanın Test Edilmesi
