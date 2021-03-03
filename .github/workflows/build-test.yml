@@ -39,6 +39,11 @@ jobs:
       - name: Arabanın Test Edilmesi
         run: |
           test -f araba/araba.txt
+          cd araba
+          grep "kaporta" araba.txt
+          grep "motor" araba.txt
+          grep "tekerlekler" araba.txt
+
 
           
           
